@@ -2,7 +2,7 @@
 #include <cstdint>
 
 /*
-Необходимо реализовать класс CStack - стэк элементов uint32_t с помощью односвязного списка (node)
+Необходимо реализовать класс CStack - стэк элементов uint32_t с помощью односвязного списка (Node)
 
 пример работы стандартной реализации методов
 https://en.cppreference.com/w/cpp/container/stack
@@ -12,7 +12,7 @@ https://en.cppreference.com/w/cpp/container/stack
 2) логику деструктора (освободить все использованные ресурсы) реализовать в функции clear()!
 
 Добавить самостоятельно и реализовать для класса CStack операторы:
-1) "*=" - умножает каждый все элементы стека(именно поле info в node) на число
+1) "*=" - умножает каждый все элементы стека(именно поле info в Node) на число
     Пример:
         Cstack c;
         c.push(1);
@@ -30,7 +30,7 @@ https://en.cppreference.com/w/cpp/container/stack
         c1 = c;
     Итог:   
         Элементы в стеке c1=={3,2,1}
-3) "[]" - возвращает  элемент(именно поле info в node) стека под определенным номером.
+3) "[]" - возвращает  элемент(именно поле info в Node) стека под определенным номером.
     Пример:
         Cstack c;
         c.push(1);
@@ -40,7 +40,7 @@ https://en.cppreference.com/w/cpp/container/stack
     Итог: 
         a==2
 
-Реализовать operator< для структуры node
+Реализовать operator< для структуры Node
     Пример:
         Node n,n1;
         n.info = 1;
@@ -65,11 +65,17 @@ struct Node
 {
     uint32_t info;
     Node* next = nullptr;
+    bool operator < (Node n_2) {
+        return info < n_2.info;
+    }
+    Node() {}
+    Node(uint32_t value) : info(value){}
 };
 
 
 class CStack{
-    Node* ptop = nullptr;
+    Node* first = nullptr;
+    Node* last = nullptr; //ptop
     void clear();
 public:
     CStack();
@@ -78,4 +84,25 @@ public:
     void push(uint32_t val); //inserts element at the top
     uint32_t top(); //accesses the top element
     bool empty(); //checks whether the underlying container is empty
+    void operator *= (uint32_t value) {
+        Node* nd = first;
+        while (nd) {
+            nd->info *= value;
+            nd = nd->next;
+        }
+    }
+    void operator = (CStack& copy) {
+        Node* nd = copy.first;
+        while (nd) {
+            this->push(nd->info);
+            nd = nd->next;
+        }
+    }
+    uint32_t& operator [] (int n) {
+        Node* nd = first;
+        for (int i = 0; i < n; i++) {
+            nd = nd->next;
+        }
+        return nd->info;
+    }
 };
