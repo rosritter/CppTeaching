@@ -28,6 +28,7 @@ TEST(HelloTest, BasicAssertions1) {
     auto cs = CStack();
 
     cs.pop();
+    s.pop();
     for(size_t i = 0; i < 10000; i++){
         EXPECT_EQ(s.empty(), cs.empty());
         if (!s.empty())
@@ -98,10 +99,7 @@ TEST(HelloTest, BasicAssertions3) {
         EXPECT_EQ(s.empty(), cs.empty());
         EXPECT_EQ(s.top(), cs.top());
         int r = rand() % 255;
-        if (r == 120){
-            s = stack<uint32_t>();
-            cs = CStack();
-        }
+       
         if(r % 2 == 0){
             s.push(r);
             cs.push(r);
@@ -124,7 +122,7 @@ TEST(HelloTest, BasicAssertions4) {
     for(size_t i = 0; i < 500; i++){
         int r = rand() % 255;
         v.push_back(r);
-        cs.push(r)
+        cs.push(r);
         for(size_t j = i; j > 0; j--){
             EXPECT_EQ(v[j], cs[j]);
         }
@@ -157,7 +155,7 @@ TEST(HelloTest, BasicAssertions5) {
 }
 
 
-TEST(HelloTest, BasicAssertions5) {
+TEST(HelloTest, BasicAssertions6) {
     // Expect two strings not to be equal.
     using namespace std;
     stack<uint32_t> s;
@@ -180,16 +178,16 @@ TEST(HelloTest, BasicAssertions5) {
 }
 
 
-TEST(HelloTest, BasicAssertions4) {
+TEST(HelloTest, BasicAssertions7) {
     // Expect two strings not to be equal.
     using namespace std;
     vector<uint32_t> v;
-    vector<node> v1;
+    vector<Node> v1;
     size_t elems = 500;
     for(size_t i = 0; i < elems; i++){
         int r = rand() % 255;
         v.push_back(r);
-        node n;
+        Node n;
         n.info = r;
         v1.push_back(n);
     }

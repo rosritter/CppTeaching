@@ -4,7 +4,7 @@ CStack::~CStack() {
     clear();
 }
 
-CStack::CStack() :first(nullptr), last(nullptr) {}
+CStack::CStack() {}
 
 void CStack::pop(){
     if (empty()) return;

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cstack1.dir/cstack/main.cpp.o CMakeFiles/cstack1.dir/cstack/cstack.cpp.o -o cstack1 
