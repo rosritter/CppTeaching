@@ -17,6 +17,7 @@ void CStack::pop(){
         last = nd;
     } else {
         delete first;
+        first = nullptr;
     }
 }
 

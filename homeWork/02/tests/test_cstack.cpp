@@ -28,7 +28,6 @@ TEST(HelloTest, BasicAssertions1) {
     auto cs = CStack();
 
     cs.pop();
-    s.pop();
     for(size_t i = 0; i < 10000; i++){
         EXPECT_EQ(s.empty(), cs.empty());
         if (!s.empty())
@@ -38,7 +37,7 @@ TEST(HelloTest, BasicAssertions1) {
             s.push(r);
             cs.push(r);
         }        
-        else {
+        else if (!s.empty()){
             s.pop();
             cs.pop();
         }
@@ -65,13 +64,14 @@ TEST(HelloTest, BasicAssertions2) {
     }
     for(size_t i = 0; i < 5000; i++){
         EXPECT_EQ(s.empty(), cs.empty());
-        EXPECT_EQ(s.top(), cs.top());
+        if (!s.empty())
+            EXPECT_EQ(s.top(), cs.top());
         int r = rand() % 255;
         if(r % 2 == 0){
             s.push(r);
             cs.push(r);
         }        
-        else {
+        else if (!s.empty()){
             s.pop();
             cs.pop();
         }
@@ -97,14 +97,15 @@ TEST(HelloTest, BasicAssertions3) {
     }
     for(size_t i = 0; i < 5000; i++){
         EXPECT_EQ(s.empty(), cs.empty());
-        EXPECT_EQ(s.top(), cs.top());
+        if (!s.empty())
+            EXPECT_EQ(s.top(), cs.top());
         int r = rand() % 255;
        
         if(r % 2 == 0){
             s.push(r);
             cs.push(r);
         }        
-        else {
+        else if (!s.empty()){
             s.pop();
             cs.pop();
         }
