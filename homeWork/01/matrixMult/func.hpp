@@ -75,6 +75,6 @@ cat tests/mtest/text0.txt | ./build/cmatrix > tests/test_result.txt
 */
 
 
-void execStatic();
+void execStatic(int mat1[3][4], int mat2[4][2]);
 
 void execDynamic();
