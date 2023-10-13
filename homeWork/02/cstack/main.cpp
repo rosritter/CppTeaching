@@ -1,14 +1,15 @@
 #include "cstack.hpp"
 #include <stack>
-#include <iostream>
 
 using namespace std;
 
 int main(){
-    stack<int> s;
-    s.pop();
-    s.pop();
+    CStack s;
+    CStack s1;
     s.push(1);
-    cout <<  "done" << endl;
+    s.push(4);
+    s.push(3);
+    s1 = s;
+    std::cout << s1[1] << std::endl;
     return 0;
 }
