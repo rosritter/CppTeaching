@@ -28,7 +28,6 @@ void CStack::pop(){
         ptop = nullptr;
         first = nullptr;
     }
-
 }
 
 void CStack::clear(){
