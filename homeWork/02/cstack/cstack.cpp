@@ -1,13 +1,13 @@
 #include "cstack.hpp"
 
-
+CStack::CStack(){}
 
 
 CStack::~CStack(){
     clear();
 }
 
-CStack::CStack(){}
+
 
 void CStack::pop(){
     if (empty()) 
