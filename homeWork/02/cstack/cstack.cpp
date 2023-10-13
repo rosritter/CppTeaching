@@ -10,7 +10,7 @@ CStack::~CStack(){
 
 
 void CStack::pop(){
-    if (empty()) 
+    if (empty())
     return;
     if(first != ptop)
     {
