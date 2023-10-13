@@ -9,5 +9,5 @@ int main(){
     s.pop();
     s.push(1);
     cout <<  "done" << endl;
-    return 0;
+    return 0; 
 }
