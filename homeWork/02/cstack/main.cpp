@@ -1,6 +1,5 @@
 #include "cstack.hpp"
 #include <stack>
-#include <iostream>
 
 using namespace std;
 
