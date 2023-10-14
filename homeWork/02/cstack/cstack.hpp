@@ -88,7 +88,7 @@ public:
     uint32_t top(); //accesses the top element
     bool empty(); //checks whether the underlying container is empty
     void operator *= (uint32_t value) {
-        Node* nd = first->next;
+        Node* nd = first;
         while (nd) {
             nd->info *= value;
             nd = nd->next;

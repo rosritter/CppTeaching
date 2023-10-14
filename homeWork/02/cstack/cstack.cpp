@@ -1,6 +1,5 @@
 #include "cstack.hpp"
 
-CStack::CStack(){}
 
 
 CStack::~CStack(){
@@ -8,6 +7,7 @@ CStack::~CStack(){
 }
 
 
+CStack::CStack(){}
 
 void CStack::pop(){
     if (empty())
@@ -23,10 +23,9 @@ void CStack::pop(){
     }
     else
     {
-        delete ptop;
         delete first;
-        ptop = nullptr;
         first = nullptr;
+        ptop = nullptr;
     }
 }
 
