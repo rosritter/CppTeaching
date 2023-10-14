@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/илья/Desktop/c++_for_kfu/first_dz_cpp/hw/hw3/homeWork/02/Google_Tests_run_cstack[1]_tests.cmake")
+  include("/mnt/c/Users/илья/Desktop/c++_for_kfu/first_dz_cpp/hw/hw3/homeWork/02/Google_Tests_run_cstack[1]_tests.cmake")
+else()
+  add_test(Google_Tests_run_cstack_NOT_BUILT Google_Tests_run_cstack_NOT_BUILT)
+endif()

@@ -1,0 +1,3 @@
+/mnt/c/Users/илья/Desktop/c++_for_kfu/first_dz_cpp/hw/hw3/homeWork/02/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/mnt/c/Users/илья/Desktop/c++_for_kfu/first_dz_cpp/hw/hw3/homeWork/02/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/mnt/c/Users/илья/Desktop/c++_for_kfu/first_dz_cpp/hw/hw3/homeWork/02/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
