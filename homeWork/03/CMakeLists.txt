@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.23)
+cmake_minimum_required (VERSION 3.22.1)
 project(cpp_template VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -27,7 +27,7 @@ endif()
 # src
 ################################
 
-add_executable(imNumbers
+add_executable(imNumbers1
   ${CMAKE_CURRENT_SOURCE_DIR}/imNumbers/main.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/imNumbers/imNumbers.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/imNumbers/imNumbers.hpp

@@ -1,9 +1,8 @@
 #include "imNumbers.hpp"
-#include <iostream>
-
-using namespace std;
 
 int main(){
-    ImNumber n;
+    ImNumber n(-1,-2);
+    ImNumber m = !n;
+    cout << m << '\n';
     return 0;
 }
