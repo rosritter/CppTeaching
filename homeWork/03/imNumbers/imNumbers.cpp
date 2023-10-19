@@ -81,4 +81,4 @@ public:
     double phi() const {
         return std::arg(std::complex<double>(real, im));
     }
-};/*
+};*/
