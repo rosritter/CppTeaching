@@ -1,8 +1,8 @@
 ﻿// 03.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-#include "ImNumber.hpp"
+#include "imNumbers.hpp"
 #include <iostream>
-#include "ImNumber.cpp"
+#include "imNumbers.cpp"
 
 int main() {
     setlocale(LC_ALL, "Russian");
