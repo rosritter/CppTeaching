@@ -91,10 +91,10 @@ public:
     }
 
     friend std::ostream& operator<<(std::ostream& os, const ImNumber& num) {
-        if (num.im >= 0)
-            os << num.real << '+' << num.im << 'i';
+        if (num.im > 0)
+            os << num.real << '+' << 'i' << num.im;
         else
-            os << num.real << num.im << 'i';
+            os << num.real << '-' << 'i' <<  fabs(num.im);
         return os;
     }
 
