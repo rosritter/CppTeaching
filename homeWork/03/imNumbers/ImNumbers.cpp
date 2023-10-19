@@ -1,6 +1,6 @@
 #include "ImNumber.hpp"
 
-class ImNumber
+/*class ImNumber
 {
 public:
     double real;
@@ -81,4 +81,4 @@ public:
     double phi() const {
         return std::arg(std::complex<double>(real, im));
     }
-};
+};/*
