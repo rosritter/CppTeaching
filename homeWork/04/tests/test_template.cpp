@@ -1,9 +1,11 @@
 #include <gtest/gtest.h>
-#include "imNumbers.hpp"
-#include "cstack.hpp"
+#include "../template/imNumbers.hpp"
+#include "../template/cstack.hpp"
 #include <iostream>
 #include <string>
 #include <cstdint>
+#include <algorithm>
+#include <stack>
 
 
 // Demonstrate some basic assertions.
@@ -35,7 +37,7 @@ TEST(HelloTest, BasicAssertions2)
     ImNumber<int> num(1, 2);
     num = num + ImNumber<int>(0, 500);
     EXPECT_EQ(num, ImNumber<int>(1, 502));
-    ImNumber<int> num1 = (1, 2);
+    ImNumber<int> num1 (1, 2);
     num1 = num1 + ImNumber<int>(500, 0);
     EXPECT_EQ(num1, ImNumber<int>(501, 2));
 }
@@ -63,7 +65,7 @@ TEST(HelloTest, BasicAssertions6)
     ImNumber<float> n1(-9, -7);
     ImNumber<float> n2(1, 1);
     auto n3 = n1 / n2;
-    EXPECT_EQ(n3, ImNumber<float>(1, 8));
+    EXPECT_EQ(n3, ImNumber<float>(-8, 1));
 }
 
 TEST(HelloTest, BasicAssertions7)
@@ -213,7 +215,7 @@ TEST(HelloTest, BasicAssertions22) {
     // Expect two strings not to be equal.
     using namespace std;
     stack<double> s;
-    Cstack<double> cs;
+    CStack<double> cs;
 
     cs.pop();
 
