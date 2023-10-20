@@ -1,0 +1,14 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Локальный компьютер": [
+      "02\\out\\build\\x64-debug",
+      "02\\out\\install\\x64-debug",
+      "02\\out\\build\\x64-release",
+      "02\\out\\install\\x64-release",
+      "02\\out\\build\\x86-debug",
+      "02\\out\\install\\x86-debug",
+      "02\\out\\build\\x86-release",
+      "02\\out\\install\\x86-release"
+    ]
+  }
+}
