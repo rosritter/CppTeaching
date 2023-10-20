@@ -22,10 +22,30 @@ ImNumber(double real, double im);
 
 
 class ImNumber{
+
+public:
+    
     double real;
     double im;
-    ImNumber();
-    ImNumber(double real, double im);
+
+    ImNumber(double real = 0.0, double im = 0.0) : real(real), im(im) {}
+    friend std::ostream& operator<<(std::ostream& os, const ImNumber& complex);
+    friend ImNumber operator!(const ImNumber& c)
+    {
+        return ImNumber(c.real, -c.im);
+    };
+
     bool operator=(const ImNumber& num)const;
-    const double phi();
+    double operator()() const;
+    bool operator==(const ImNumber& operand2) const;
+    ImNumber operator+(const ImNumber& rhs)const;
+    ImNumber operator-(const ImNumber& rhs)const;
+    ImNumber operator*(const ImNumber& rhs) const;
+    ImNumber operator/(const ImNumber& other)const;
+    ImNumber operator+=(const ImNumber& other);
+    ImNumber operator-=(const ImNumber& other);
+    ImNumber operator*=(const ImNumber& other);
+    ImNumber operator/=(const ImNumber& rhs);
+
+    //const double phi();
 };
