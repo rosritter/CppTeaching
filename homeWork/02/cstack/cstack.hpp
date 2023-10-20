@@ -65,6 +65,16 @@ struct Node
 {
     uint32_t info;
     Node* next = nullptr;
+
+    Node(int n)
+    {
+        this->data = n;
+        this->link = NULL;
+    }
+
+    bool operator<(const Node& other) const {
+        return info < other.info;
+    }
 };
 
 
@@ -72,10 +82,15 @@ class CStack{
     Node* ptop = nullptr;
     void clear();
 public:
+    Stack() { top = NULL; }
     CStack();
     ~CStack(); //clears all memory  
     void pop(); //	removes the top element
     void push(uint32_t val); //inserts element at the top
     uint32_t top(); //accesses the top element
     bool empty(); //checks whether the underlying container is empty
+    void display();
+    void operator*=(uint32_t multiplier);    
+    uint32_t operator[](size_t index) const;
+
 };

@@ -2,8 +2,9 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello world";
+    
+   
     execDynamic();
-    execStatic();
+    //execStatic();
     return 0;
 }

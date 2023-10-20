@@ -5,8 +5,10 @@
     "\\homeWork\\01",
     "\\homeWork\\01\\matrixMult",
     "\\homeWork\\02",
-    "\\homeWork\\02\\cstack"
+    "\\homeWork\\02\\cstack",
+    "\\homeWork\\03",
+    "\\homeWork\\03\\imNumbers"
   ],
-  "SelectedNode": "\\homeWork\\01\\CMakeLists.txt",
+  "SelectedNode": "\\homeWork\\01\\matrixMult\\func.cpp",
   "PreviewInSolutionExplorer": false
 }

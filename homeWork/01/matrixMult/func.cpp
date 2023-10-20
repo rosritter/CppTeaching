@@ -5,7 +5,7 @@ using namespace std;
 const int ROWS = 2;
 const int COLS = 2;
 
-void execStatic(const int A[][COLS], const int B[][COLS], int C[][COLS])
+void execStatic(int A[][COLS], int B[][COLS], int C[][COLS])
 {
 
 		for (int i = 0; i < ROWS; ++i) {
@@ -17,10 +17,9 @@ void execStatic(const int A[][COLS], const int B[][COLS], int C[][COLS])
 			}
 		}
 
-		int A[ROWS][COLS] = { {1, 2}, {3, 4} };
-		int B[ROWS][COLS] = { {5, 6},
-		{7, 8} };
-		int C[ROWS][COLS];
+		//int A[ROWS][COLS] = { {1, 2}, {3, 4} };
+		//int B[ROWS][COLS] = { {5, 6},{7, 8} };
+		//int C[ROWS][COLS];
 
 		execStatic(A, B, C);
 
@@ -117,3 +116,4 @@ void execDynamic()
 	    }
 	    cin.get(); cin.get();
 }
+
