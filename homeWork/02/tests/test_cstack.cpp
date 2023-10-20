@@ -125,7 +125,7 @@ TEST(HelloTest, BasicAssertions4) {
         v.push_back(r);
         cs.push(r);
         for(size_t j = i; j > 0; j--){
-            EXPECT_EQ(v[j], cs[j]);
+            EXPECT_EQ(v[i-j], cs[j]);
         }
     }
 }
