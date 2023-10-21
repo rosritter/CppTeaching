@@ -29,13 +29,31 @@ Fibonacci<4>::value
 
 Дата последней сдачи 6.10.23 включительно
 */
-
-
-auto fibonacci() -> T{
-
+template <int T> constexpr auto fibonacci() -> decltype(T){ 
+   return fibonacci<T-1>()+fibonacci<T-2>();
 }
 
+template <> constexpr auto fibonacci<0>() -> int {return 0;}
 
+template <> constexpr auto fibonacci<1>() -> int {return 1;}
+
+template <int T>
+class Fibonacci;
+
+template <>
+class Fibonacci<0> {
+public:
+   static constexpr int value = 0;
+};
+
+template <>
+class Fibonacci<1> {
+public:
+   static constexpr int value = 1;
+};
+
+template <int T>
 class Fibonacci{
-
+public:
+   static constexpr int value = Fibonacci<T-1>::value + Fibonacci<T-2>::value;
 };

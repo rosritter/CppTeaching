@@ -1,0 +1,15 @@
+HelloTest.BasicAssertions0 1 0.0134876
+HelloTest.BasicAssertions1 1 0.012971
+HelloTest.BasicAssertions2 1 0.0129717
+HelloTest.BasicAssertions3 1 0.0144332
+HelloTest.BasicAssertions10 1 0.013208
+HelloTest.BasicAssertions35 1 0.0326182
+HelloTest.BasicAssertions30 1 0.0150689
+HelloTest.BasicAssertionsf0 1 0.0131535
+HelloTest.BasicAssertionsf1 1 0.0131536
+HelloTest.BasicAssertionsf2 1 0.0132049
+HelloTest.BasicAssertionsf3 1 0.0132644
+HelloTest.BasicAssertionsf10 1 0.0131932
+HelloTest.BasicAssertionsf35 1 0.0325688
+HelloTest.BasicAssertionsf30 1 0.0159379
+---
