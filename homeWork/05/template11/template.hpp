@@ -1,18 +1,20 @@
-#ifndef FIBONACCI_TEMPLATE_HPP
-#define FIBONACCI_TEMPLATE_HPP
+#pragma once
 
 template <int N>
-struct Fibonacci {
+class Fibonacci {
+public:
     static constexpr int value = Fibonacci<N - 1>::value + Fibonacci<N - 2>::value;
 };
 
 template <>
-struct Fibonacci<1> {
+class Fibonacci<1> {
+public:
     static constexpr int value = 1;
 };
 
 template <>
-struct Fibonacci<0> {
+class Fibonacci<0> {
+public:
     static constexpr int value = 0;
 };
 
@@ -21,4 +23,4 @@ constexpr int fibonacci() {
     return Fibonacci<N>::value;
 }
 
-#endif 
+

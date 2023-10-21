@@ -1,10 +1,10 @@
-Start testing: Oct 21 15:07 MSK
+Start testing: Oct 21 23:40 MSK
 ----------------------------------------------------------
 1/14 Testing: HelloTest.BasicAssertions0
 1/14 Test: HelloTest.BasicAssertions0
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertions0" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertions0" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions0" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertions0
@@ -19,10 +19,10 @@ Note: Google Test filter = HelloTest.BasicAssertions0
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertions0" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions0" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertions0" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/14 Test: HelloTest.BasicAssertions1
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertions1" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertions1" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions1" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertions1
@@ -45,10 +45,10 @@ Note: Google Test filter = HelloTest.BasicAssertions1
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertions1" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions1" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertions1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -56,7 +56,7 @@ Test Passed.
 3/14 Test: HelloTest.BasicAssertions2
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertions2" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertions2" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions2" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertions2
@@ -71,10 +71,10 @@ Note: Google Test filter = HelloTest.BasicAssertions2
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertions2" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions2" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertions2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -82,7 +82,7 @@ Test Passed.
 4/14 Test: HelloTest.BasicAssertions3
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertions3" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertions3" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions3" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertions3
@@ -97,10 +97,10 @@ Note: Google Test filter = HelloTest.BasicAssertions3
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertions3" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions3" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertions3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -108,7 +108,7 @@ Test Passed.
 5/14 Test: HelloTest.BasicAssertions10
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertions10" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertions10" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions10" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertions10
@@ -123,10 +123,10 @@ Note: Google Test filter = HelloTest.BasicAssertions10
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.06 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertions10" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions10" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertions10" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -134,7 +134,7 @@ Test Passed.
 6/14 Test: HelloTest.BasicAssertions35
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertions35" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertions35" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions35" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertions35
@@ -142,17 +142,17 @@ Note: Google Test filter = HelloTest.BasicAssertions35
 [----------] Global test environment set-up.
 [----------] 1 test from HelloTest
 [ RUN      ] HelloTest.BasicAssertions35
-[       OK ] HelloTest.BasicAssertions35 (35 ms)
-[----------] 1 test from HelloTest (35 ms total)
+[       OK ] HelloTest.BasicAssertions35 (13 ms)
+[----------] 1 test from HelloTest (13 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (36 ms total)
+[==========] 1 test from 1 test suite ran. (13 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertions35" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions35" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertions35" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -160,7 +160,7 @@ Test Passed.
 7/14 Test: HelloTest.BasicAssertions30
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertions30" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertions30" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions30" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertions30
@@ -168,17 +168,17 @@ Note: Google Test filter = HelloTest.BasicAssertions30
 [----------] Global test environment set-up.
 [----------] 1 test from HelloTest
 [ RUN      ] HelloTest.BasicAssertions30
-[       OK ] HelloTest.BasicAssertions30 (4 ms)
-[----------] 1 test from HelloTest (4 ms total)
+[       OK ] HelloTest.BasicAssertions30 (1 ms)
+[----------] 1 test from HelloTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (4 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertions30" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertions30" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertions30" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -186,7 +186,7 @@ Test Passed.
 8/14 Test: HelloTest.BasicAssertionsf0
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertionsf0" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertionsf0" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf0" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertionsf0
@@ -201,10 +201,10 @@ Note: Google Test filter = HelloTest.BasicAssertionsf0
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertionsf0" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf0" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertionsf0" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -212,7 +212,7 @@ Test Passed.
 9/14 Test: HelloTest.BasicAssertionsf1
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertionsf1" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertionsf1" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf1" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertionsf1
@@ -227,10 +227,10 @@ Note: Google Test filter = HelloTest.BasicAssertionsf1
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertionsf1" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf1" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertionsf1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -238,7 +238,7 @@ Test Passed.
 10/14 Test: HelloTest.BasicAssertionsf2
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertionsf2" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertionsf2" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf2" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertionsf2
@@ -253,10 +253,10 @@ Note: Google Test filter = HelloTest.BasicAssertionsf2
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertionsf2" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf2" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertionsf2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -264,7 +264,7 @@ Test Passed.
 11/14 Test: HelloTest.BasicAssertionsf3
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertionsf3" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertionsf3" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf3" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertionsf3
@@ -279,10 +279,10 @@ Note: Google Test filter = HelloTest.BasicAssertionsf3
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertionsf3" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf3" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertionsf3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -290,7 +290,7 @@ Test Passed.
 12/14 Test: HelloTest.BasicAssertionsf10
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertionsf10" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertionsf10" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf10" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertionsf10
@@ -305,10 +305,10 @@ Note: Google Test filter = HelloTest.BasicAssertionsf10
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertionsf10" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf10" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertionsf10" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -316,7 +316,7 @@ Test Passed.
 13/14 Test: HelloTest.BasicAssertionsf35
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertionsf35" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertionsf35" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf35" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertionsf35
@@ -324,17 +324,17 @@ Note: Google Test filter = HelloTest.BasicAssertionsf35
 [----------] Global test environment set-up.
 [----------] 1 test from HelloTest
 [ RUN      ] HelloTest.BasicAssertionsf35
-[       OK ] HelloTest.BasicAssertionsf35 (46 ms)
-[----------] 1 test from HelloTest (46 ms total)
+[       OK ] HelloTest.BasicAssertionsf35 (13 ms)
+[----------] 1 test from HelloTest (13 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (47 ms total)
+[==========] 1 test from 1 test suite ran. (13 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.15 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertionsf35" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf35" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertionsf35" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -342,7 +342,7 @@ Test Passed.
 14/14 Test: HelloTest.BasicAssertionsf30
 Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05/Google_Tests_run_template1" "--gtest_filter=HelloTest.BasicAssertionsf30" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/05
-"HelloTest.BasicAssertionsf30" start time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf30" start time: Oct 21 23:40 MSK
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HelloTest.BasicAssertionsf30
@@ -350,18 +350,18 @@ Note: Google Test filter = HelloTest.BasicAssertionsf30
 [----------] Global test environment set-up.
 [----------] 1 test from HelloTest
 [ RUN      ] HelloTest.BasicAssertionsf30
-[       OK ] HelloTest.BasicAssertionsf30 (5 ms)
-[----------] 1 test from HelloTest (5 ms total)
+[       OK ] HelloTest.BasicAssertionsf30 (1 ms)
+[----------] 1 test from HelloTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (5 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"HelloTest.BasicAssertionsf30" end time: Oct 21 15:07 MSK
+"HelloTest.BasicAssertionsf30" end time: Oct 21 23:40 MSK
 "HelloTest.BasicAssertionsf30" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 21 15:07 MSK
+End testing: Oct 21 23:40 MSK
