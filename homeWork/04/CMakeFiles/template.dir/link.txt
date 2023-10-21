@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/template.dir/templatte/main.cpp.o CMakeFiles/template.dir/templatte/imNumbers.cpp.o CMakeFiles/template.dir/templatte/cstack.cpp.o -o template 

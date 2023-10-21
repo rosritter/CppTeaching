@@ -6,7 +6,7 @@ int fibon(int x) {
    if((x==1)||(x==0)) {
       return(x);
    }else {
-      return(fib(x-1)+fib(x-2));
+      return(fibon(x-1)+fibon(x-2));
    }
 }
 
@@ -39,8 +39,6 @@ TEST(HelloTest, BasicAssertions30)
 {
     EXPECT_EQ(Fibonacci<30>::value, fibon(30));
 }
-
-
 
 TEST(HelloTest, BasicAssertionsf0)
 {

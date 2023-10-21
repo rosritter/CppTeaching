@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.23)
+cmake_minimum_required (VERSION 3.22.1)
 project(cpp_template VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -28,8 +28,8 @@ endif()
 ################################
 
 add_executable(template1
-  ${CMAKE_CURRENT_SOURCE_DIR}/template1/main.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/template1/template.hpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/template11/main.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/template11/template.hpp
 )
 
 
@@ -55,7 +55,7 @@ enable_testing()
 
 add_executable(
   Google_Tests_run_template1
-  ${CMAKE_CURRENT_SOURCE_DIR}/template1/template.hpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/template11/template.hpp
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/main.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_fib.cpp
 )
