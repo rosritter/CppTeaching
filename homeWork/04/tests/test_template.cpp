@@ -8,6 +8,7 @@
 #include <stack>
 
 
+
 // Demonstrate some basic assertions.
 TEST(HelloTest, BasicAssertions)
 {
@@ -63,7 +64,7 @@ TEST(HelloTest, BasicAssertions5)
 TEST(HelloTest, BasicAssertions6)
 {
     ImNumber<float> n1(-9, -7);
-    ImNumber<float> n2(1, 1);
+    ImNumber<float> n2(-1, 1);
     auto n3 = n1 / n2;
     EXPECT_EQ(n3, ImNumber<float>(-8, 1));
 }

@@ -46,3 +46,4 @@ public:
     const double phi()const;
 };
 std::ostream& operator<<(std::ostream& stream, const ImNumber num);
+

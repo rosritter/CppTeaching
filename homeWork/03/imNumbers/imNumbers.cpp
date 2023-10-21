@@ -55,3 +55,4 @@ std::ostream& operator<<(std::ostream& stream, const ImNumber num) {
 const double ImNumber::phi()const {
     return atan2(im, real);
 }
+
