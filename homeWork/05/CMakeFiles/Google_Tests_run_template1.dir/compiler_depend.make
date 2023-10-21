@@ -396,8 +396,7 @@ CMakeFiles/Google_Tests_run_template1.dir/tests/main.cpp.o: tests/main.cpp \
   _deps/googletest-src/googlemock/include/gmock/gmock-more-actions.h \
   _deps/googletest-src/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
   _deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h \
-  _deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h \
-  tests/template.hpp
+  _deps/googletest-src/googlemock/include/gmock/gmock-nice-strict.h
 
 CMakeFiles/Google_Tests_run_template1.dir/tests/test_fib.cpp.o: tests/test_fib.cpp \
   /usr/include/stdc-predef.h \
@@ -748,9 +747,9 @@ CMakeFiles/Google_Tests_run_template1.dir/tests/test_fib.cpp.o: tests/test_fib.c
   tests/template.hpp
 
 
-tests/test_fib.cpp:
-
 tests/template.hpp:
+
+tests/test_fib.cpp:
 
 _deps/googletest-src/googlemock/include/gmock/gmock-more-matchers.h:
 
