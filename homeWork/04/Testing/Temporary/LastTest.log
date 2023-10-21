@@ -1,0 +1,731 @@
+Start testing: Oct 20 19:42 MSK
+----------------------------------------------------------
+1/28 Testing: HelloTest.BasicAssertions
+1/28 Test: HelloTest.BasicAssertions
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions
+[       OK ] HelloTest.BasicAssertions (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/28 Testing: HelloTest.BasicAssertions0
+2/28 Test: HelloTest.BasicAssertions0
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions0" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions0" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions0
+[       OK ] HelloTest.BasicAssertions0 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions0" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/28 Testing: HelloTest.BasicAssertions1
+3/28 Test: HelloTest.BasicAssertions1
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions1" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions1" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions1
+[       OK ] HelloTest.BasicAssertions1 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions1" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/28 Testing: HelloTest.BasicAssertions2
+4/28 Test: HelloTest.BasicAssertions2
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions2" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions2" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions2
+[       OK ] HelloTest.BasicAssertions2 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions2" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/28 Testing: HelloTest.BasicAssertions3
+5/28 Test: HelloTest.BasicAssertions3
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions3" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions3" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions3
+[       OK ] HelloTest.BasicAssertions3 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions3" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/28 Testing: HelloTest.BasicAssertions5
+6/28 Test: HelloTest.BasicAssertions5
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions5" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions5" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions5
+[       OK ] HelloTest.BasicAssertions5 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions5" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/28 Testing: HelloTest.BasicAssertions6
+7/28 Test: HelloTest.BasicAssertions6
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions6" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions6" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions6
+[       OK ] HelloTest.BasicAssertions6 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions6" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/28 Testing: HelloTest.BasicAssertions7
+8/28 Test: HelloTest.BasicAssertions7
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions7" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions7" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions7
+[       OK ] HelloTest.BasicAssertions7 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions7" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/28 Testing: HelloTest.BasicAssertions8
+9/28 Test: HelloTest.BasicAssertions8
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions8" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions8" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions8
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions8
+[       OK ] HelloTest.BasicAssertions8 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions8" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/28 Testing: HelloTest.BasicAssertions10
+10/28 Test: HelloTest.BasicAssertions10
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions10" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions10" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions10
+[       OK ] HelloTest.BasicAssertions10 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions10" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/28 Testing: HelloTest.BasicAssertions11
+11/28 Test: HelloTest.BasicAssertions11
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions11" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions11" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions11
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions11
+[       OK ] HelloTest.BasicAssertions11 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions11" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/28 Testing: HelloTest.BasicAssertions12
+12/28 Test: HelloTest.BasicAssertions12
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions12" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions12" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions12
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions12
+[       OK ] HelloTest.BasicAssertions12 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions12" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/28 Testing: HelloTest.BasicAssertions13
+13/28 Test: HelloTest.BasicAssertions13
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions13" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions13" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions13
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions13
+[       OK ] HelloTest.BasicAssertions13 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions13" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/28 Testing: HelloTest.BasicAssertions14
+14/28 Test: HelloTest.BasicAssertions14
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions14" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions14" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions14
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions14
+[       OK ] HelloTest.BasicAssertions14 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions14" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions14" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/28 Testing: HelloTest.BasicAssertions15
+15/28 Test: HelloTest.BasicAssertions15
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions15" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions15" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions15
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions15
+[       OK ] HelloTest.BasicAssertions15 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions15" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/28 Testing: HelloTest.BasicAssertions16
+16/28 Test: HelloTest.BasicAssertions16
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions16" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions16" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions16
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions16
+[       OK ] HelloTest.BasicAssertions16 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions16" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/28 Testing: HelloTest.BasicAssertions17
+17/28 Test: HelloTest.BasicAssertions17
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions17" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions17" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions17
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions17
+[       OK ] HelloTest.BasicAssertions17 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions17" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions17" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/28 Testing: HelloTest.BasicAssertions18
+18/28 Test: HelloTest.BasicAssertions18
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions18" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions18" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions18
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions18
+[       OK ] HelloTest.BasicAssertions18 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions18" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions18" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/28 Testing: HelloTest.BasicAssertions19
+19/28 Test: HelloTest.BasicAssertions19
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions19" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions19" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions19
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions19
+[       OK ] HelloTest.BasicAssertions19 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions19" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions19" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/28 Testing: HelloTest.BasicAssertions20
+20/28 Test: HelloTest.BasicAssertions20
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions20" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions20" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions20
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions20
+[       OK ] HelloTest.BasicAssertions20 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions20" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/28 Testing: HelloTest.BasicAssertions21
+21/28 Test: HelloTest.BasicAssertions21
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions21" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions21" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions21
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions21
+[       OK ] HelloTest.BasicAssertions21 (1 ms)
+[----------] 1 test from HelloTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions21" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions21" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/28 Testing: HelloTest.BasicAssertions4
+22/28 Test: HelloTest.BasicAssertions4
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions4" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions4" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions4
+[       OK ] HelloTest.BasicAssertions4 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions4" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/28 Testing: HelloTest.BasicAssertions9
+23/28 Test: HelloTest.BasicAssertions9
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions9" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions9" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions9
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions9
+[       OK ] HelloTest.BasicAssertions9 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions9" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/28 Testing: HelloTest.BasicAssertions22
+24/28 Test: HelloTest.BasicAssertions22
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions22" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions22" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions22
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions22
+[       OK ] HelloTest.BasicAssertions22 (1 ms)
+[----------] 1 test from HelloTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions22" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions22" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/28 Testing: HelloTest.BasicAssertions23
+25/28 Test: HelloTest.BasicAssertions23
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions23" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions23" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions23
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions23
+[       OK ] HelloTest.BasicAssertions23 (1 ms)
+[----------] 1 test from HelloTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions23" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions23" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/28 Testing: HelloTest.BasicAssertions24
+26/28 Test: HelloTest.BasicAssertions24
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions24" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions24" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions24
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions24
+[       OK ] HelloTest.BasicAssertions24 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions24" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions24" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/28 Testing: HelloTest.BasicAssertions25
+27/28 Test: HelloTest.BasicAssertions25
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions25" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions25" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions25
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions25
+[       OK ] HelloTest.BasicAssertions25 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions25" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/28 Testing: HelloTest.BasicAssertions26
+28/28 Test: HelloTest.BasicAssertions26
+Command: "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04/Google_Tests_run_template" "--gtest_filter=HelloTest.BasicAssertions26" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/04
+"HelloTest.BasicAssertions26" start time: Oct 20 19:42 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions26
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions26
+[       OK ] HelloTest.BasicAssertions26 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions26" end time: Oct 20 19:42 MSK
+"HelloTest.BasicAssertions26" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 19:42 MSK

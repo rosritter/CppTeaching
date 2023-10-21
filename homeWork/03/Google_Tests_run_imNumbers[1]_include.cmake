@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/03/Google_Tests_run_imNumbers[1]_tests.cmake")
+  include("/mnt/c/Users/илья/Desktop/c++_for_kfu/3hw/homeWork/03/Google_Tests_run_imNumbers[1]_tests.cmake")
+else()
+  add_test(Google_Tests_run_imNumbers_NOT_BUILT Google_Tests_run_imNumbers_NOT_BUILT)
+endif()
