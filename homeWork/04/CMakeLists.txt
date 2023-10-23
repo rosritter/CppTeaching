@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.23)
+cmake_minimum_required (VERSION 3.22.1)
 project(cpp_template VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -28,11 +28,11 @@ endif()
 ################################
 
 add_executable(template
-  ${CMAKE_CURRENT_SOURCE_DIR}/template/main.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/template/imNumbers.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/template/imNumbers.hpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/template/cstack.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/template/cstack.hpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/templatte/main.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/templatte/imNumbers.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/templatte/imNumbers.hpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/templatte/cstack.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/templatte/cstack.hpp
 )
 
 
@@ -58,10 +58,10 @@ enable_testing()
 
 add_executable(
   Google_Tests_run_template
-  ${CMAKE_CURRENT_SOURCE_DIR}/template/imNumbers.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/template/imNumbers.hpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/template/cstack.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/template/cstack.hpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/templatte/imNumbers.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/templatte/imNumbers.hpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/templatte/cstack.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/templatte/cstack.hpp
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/main.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_template.cpp
 )

@@ -40,8 +40,6 @@ TEST(HelloTest, BasicAssertions30)
     EXPECT_EQ(Fibonacci<30>::value, fibon(30));
 }
 
-
-
 TEST(HelloTest, BasicAssertionsf0)
 {
     EXPECT_EQ(fibonacci<0>(), fibon(0));
