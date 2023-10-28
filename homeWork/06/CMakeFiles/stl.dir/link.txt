@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/stl.dir/stl/main.cpp.o CMakeFiles/stl.dir/stl/stl.cpp.o -o stl 
