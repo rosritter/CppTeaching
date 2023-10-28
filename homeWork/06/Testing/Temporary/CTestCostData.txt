@@ -1,0 +1,47 @@
+HelloTest.BasicAssertions 1 0.0131614
+HelloTest.race1 0 0
+HelloTest.race2 0 0
+HelloTest.race3 0 0
+HelloTest.race4 0 0
+HelloTest.race5 0 0
+HelloTest.race6 0 0
+HelloTest.race7 0 0
+HelloTest.race8 0 0
+HelloTest.race9 0 0
+HelloTest.race10 0 0
+HelloTest.race11 0 0
+HelloTest.registratura1 0 0
+HelloTest.registratura2 0 0
+HelloTest.registratura3 1 0.0129242
+HelloTest.registratura4 1 0.0130276
+HelloTest.registratura5 0 0
+HelloTest.registratura6 1 0.0128874
+HelloTest.registratura7 0 0
+HelloTest.registratura8 0 0
+HelloTest.registratura9 0 0
+HelloTest.registratura10 0 0
+HelloTest.registratura11 0 0
+HelloTest.registratura12 0 0
+HelloTest.registratura13 0 0
+---
+HelloTest.race1
+HelloTest.race2
+HelloTest.race3
+HelloTest.race4
+HelloTest.race5
+HelloTest.race6
+HelloTest.race7
+HelloTest.race8
+HelloTest.race9
+HelloTest.race10
+HelloTest.race11
+HelloTest.registratura1
+HelloTest.registratura2
+HelloTest.registratura5
+HelloTest.registratura7
+HelloTest.registratura8
+HelloTest.registratura9
+HelloTest.registratura10
+HelloTest.registratura11
+HelloTest.registratura12
+HelloTest.registratura13
