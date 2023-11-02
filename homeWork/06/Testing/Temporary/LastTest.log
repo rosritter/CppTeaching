@@ -1,0 +1,653 @@
+Start testing: Nov 02 20:03 MSK
+----------------------------------------------------------
+1/25 Testing: HelloTest.BasicAssertions
+1/25 Test: HelloTest.BasicAssertions
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.BasicAssertions" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.BasicAssertions" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.BasicAssertions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.BasicAssertions
+[       OK ] HelloTest.BasicAssertions (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.BasicAssertions" end time: Nov 02 20:03 MSK
+"HelloTest.BasicAssertions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/25 Testing: HelloTest.race1
+2/25 Test: HelloTest.race1
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race1" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race1" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race1
+[       OK ] HelloTest.race1 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race1" end time: Nov 02 20:03 MSK
+"HelloTest.race1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/25 Testing: HelloTest.race2
+3/25 Test: HelloTest.race2
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race2" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race2" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race2
+[       OK ] HelloTest.race2 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race2" end time: Nov 02 20:03 MSK
+"HelloTest.race2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/25 Testing: HelloTest.race3
+4/25 Test: HelloTest.race3
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race3" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race3" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race3
+[       OK ] HelloTest.race3 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race3" end time: Nov 02 20:03 MSK
+"HelloTest.race3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/25 Testing: HelloTest.race4
+5/25 Test: HelloTest.race4
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race4" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race4" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race4
+[       OK ] HelloTest.race4 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race4" end time: Nov 02 20:03 MSK
+"HelloTest.race4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/25 Testing: HelloTest.race5
+6/25 Test: HelloTest.race5
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race5" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race5" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race5
+[       OK ] HelloTest.race5 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race5" end time: Nov 02 20:03 MSK
+"HelloTest.race5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/25 Testing: HelloTest.race6
+7/25 Test: HelloTest.race6
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race6" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race6" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race6
+[       OK ] HelloTest.race6 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race6" end time: Nov 02 20:03 MSK
+"HelloTest.race6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/25 Testing: HelloTest.race7
+8/25 Test: HelloTest.race7
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race7" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race7" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race7
+[       OK ] HelloTest.race7 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race7" end time: Nov 02 20:03 MSK
+"HelloTest.race7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/25 Testing: HelloTest.race8
+9/25 Test: HelloTest.race8
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race8" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race8" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race8
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race8
+[       OK ] HelloTest.race8 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race8" end time: Nov 02 20:03 MSK
+"HelloTest.race8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/25 Testing: HelloTest.race9
+10/25 Test: HelloTest.race9
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race9" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race9" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race9
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race9
+[       OK ] HelloTest.race9 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race9" end time: Nov 02 20:03 MSK
+"HelloTest.race9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/25 Testing: HelloTest.race10
+11/25 Test: HelloTest.race10
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race10" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race10" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race10
+[       OK ] HelloTest.race10 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race10" end time: Nov 02 20:03 MSK
+"HelloTest.race10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/25 Testing: HelloTest.race11
+12/25 Test: HelloTest.race11
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.race11" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.race11" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.race11
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.race11
+[       OK ] HelloTest.race11 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.race11" end time: Nov 02 20:03 MSK
+"HelloTest.race11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/25 Testing: HelloTest.registratura1
+13/25 Test: HelloTest.registratura1
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura1" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura1" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura1
+[       OK ] HelloTest.registratura1 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura1" end time: Nov 02 20:03 MSK
+"HelloTest.registratura1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/25 Testing: HelloTest.registratura2
+14/25 Test: HelloTest.registratura2
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura2" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura2" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura2
+[       OK ] HelloTest.registratura2 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura2" end time: Nov 02 20:03 MSK
+"HelloTest.registratura2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/25 Testing: HelloTest.registratura3
+15/25 Test: HelloTest.registratura3
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura3" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura3" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura3
+[       OK ] HelloTest.registratura3 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura3" end time: Nov 02 20:03 MSK
+"HelloTest.registratura3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/25 Testing: HelloTest.registratura4
+16/25 Test: HelloTest.registratura4
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura4" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura4" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura4
+[       OK ] HelloTest.registratura4 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura4" end time: Nov 02 20:03 MSK
+"HelloTest.registratura4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/25 Testing: HelloTest.registratura5
+17/25 Test: HelloTest.registratura5
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura5" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura5" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura5
+[       OK ] HelloTest.registratura5 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura5" end time: Nov 02 20:03 MSK
+"HelloTest.registratura5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/25 Testing: HelloTest.registratura6
+18/25 Test: HelloTest.registratura6
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura6" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura6" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura6
+[       OK ] HelloTest.registratura6 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura6" end time: Nov 02 20:03 MSK
+"HelloTest.registratura6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/25 Testing: HelloTest.registratura7
+19/25 Test: HelloTest.registratura7
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura7" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura7" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura7
+[       OK ] HelloTest.registratura7 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura7" end time: Nov 02 20:03 MSK
+"HelloTest.registratura7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/25 Testing: HelloTest.registratura8
+20/25 Test: HelloTest.registratura8
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura8" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura8" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura8
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura8
+[       OK ] HelloTest.registratura8 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura8" end time: Nov 02 20:03 MSK
+"HelloTest.registratura8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/25 Testing: HelloTest.registratura9
+21/25 Test: HelloTest.registratura9
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura9" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura9" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura9
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura9
+[       OK ] HelloTest.registratura9 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura9" end time: Nov 02 20:03 MSK
+"HelloTest.registratura9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/25 Testing: HelloTest.registratura10
+22/25 Test: HelloTest.registratura10
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura10" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura10" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura10
+[       OK ] HelloTest.registratura10 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura10" end time: Nov 02 20:03 MSK
+"HelloTest.registratura10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/25 Testing: HelloTest.registratura11
+23/25 Test: HelloTest.registratura11
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura11" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura11" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura11
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura11
+[       OK ] HelloTest.registratura11 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura11" end time: Nov 02 20:03 MSK
+"HelloTest.registratura11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/25 Testing: HelloTest.registratura12
+24/25 Test: HelloTest.registratura12
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura12" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura12" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura12
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura12
+[       OK ] HelloTest.registratura12 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura12" end time: Nov 02 20:03 MSK
+"HelloTest.registratura12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/25 Testing: HelloTest.registratura13
+25/25 Test: HelloTest.registratura13
+Command: "/mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06/Google_Tests_run_stl" "--gtest_filter=HelloTest.registratura13" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/farra/OneDrive/Рабочий стол/C++ files/C++/CppTeaching/homeWork/06
+"HelloTest.registratura13" start time: Nov 02 20:03 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = HelloTest.registratura13
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloTest
+[ RUN      ] HelloTest.registratura13
+[       OK ] HelloTest.registratura13 (0 ms)
+[----------] 1 test from HelloTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HelloTest.registratura13" end time: Nov 02 20:03 MSK
+"HelloTest.registratura13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 02 20:03 MSK
