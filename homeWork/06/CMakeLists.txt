@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.23)
+cmake_minimum_required (VERSION 3.22.1)
 project(cpp_stl VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -28,9 +28,9 @@ endif()
 ################################
 
 add_executable(stl
-  ${CMAKE_CURRENT_SOURCE_DIR}/stl/main.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/stl/stl.hpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/stl/stl.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/stl_/main.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/stl_/stl.hpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/stl_/stl.cpp
 )
 
 
@@ -56,8 +56,8 @@ enable_testing()
 
 add_executable(
   Google_Tests_run_stl
-  ${CMAKE_CURRENT_SOURCE_DIR}/stl/stl.hpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/stl/stl.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/stl_/stl.hpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/stl_/stl.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/main.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_stl.cpp
 )

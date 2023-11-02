@@ -1,0 +1,26 @@
+HelloTest.BasicAssertions 3 0.0238658
+HelloTest.race1 3 0.010773
+HelloTest.race2 3 0.0177557
+HelloTest.race3 3 0.0193404
+HelloTest.race4 3 0.0255029
+HelloTest.race5 3 0.0265479
+HelloTest.race6 3 0.0123022
+HelloTest.race7 3 0.00937403
+HelloTest.race8 3 0.00816563
+HelloTest.race9 3 0.00893552
+HelloTest.race10 3 0.0309168
+HelloTest.race11 3 0.00964407
+HelloTest.registratura1 2 0.0126557
+HelloTest.registratura2 2 0.0137739
+HelloTest.registratura3 2 0.0159762
+HelloTest.registratura4 2 0.0136355
+HelloTest.registratura5 2 0.0150945
+HelloTest.registratura6 2 0.0132881
+HelloTest.registratura7 2 0.0138221
+HelloTest.registratura8 2 0.0105006
+HelloTest.registratura9 2 0.0146192
+HelloTest.registratura10 2 0.0109727
+HelloTest.registratura11 2 0.0117514
+HelloTest.registratura12 2 0.0121167
+HelloTest.registratura13 2 0.0126603
+---
