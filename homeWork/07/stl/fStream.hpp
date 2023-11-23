@@ -15,8 +15,11 @@ class ErrorFilePath{
     string path;
     ErrorFilePath(string p):path(p){
         ifstream file(path);
-        if(!file)
+        if(!file) {
+            file.close();
             throw string{"File not found!\n"};
+        }
+        file.close();
     };
 };
 
@@ -28,9 +31,9 @@ struct DBfield{
     string sex;
     string ip_adress;
     bool married;
-    const char* favourite_color = new char[4];
-    const char* shirt_size = new char[3];
-    const char* age = new char[4];
+    char* favourite_color = new char[4];
+    char* shirt_size = new char[3];
+    char* age = new char[4];
     friend ostream& operator<<(ostream& is,const DBfield& f);
     friend istream& operator>>(istream& is,const DBfield& f);
     DBfield (vector<string>& data) {
@@ -41,20 +44,68 @@ struct DBfield{
         sex = data[4];
         ip_adress = data[5];
         married = (data[6] == "true");
-        favourite_color = data[7].c_str();
-        shirt_size = data[8].c_str();
-        age = data[9].c_str();
+        favourite_color = new char[4];
+        strcpy(favourite_color, data[7].c_str());
+        shirt_size = new char[3];
+        strcpy(shirt_size, data[8].c_str());
+        age = new char[4];
+        strcpy(age, data[9].c_str());
     }
+    DBfield() { favourite_color = new char[4]; shirt_size = new char[3]; age = new char[4];}
+    ~DBfield() {delete[] favourite_color; delete[] shirt_size; delete[] age;}
 };
 string toStrFromArr(const char* chars) {
     return string (chars, strlen(chars));
 }
-ostream& operator<<(ostream& is,const DBfield& f) {
-    is << f.id << ',' << f.first_name 
+ostream& operator<<(ostream& os,const DBfield& f) {
+    os << f.id << ',' << f.first_name 
     << ',' << f.last_name << ',' << f.email
     << ',' << f.sex << ',' << f.ip_adress 
     << ',' << (f.married ? "true" : "false")<< ',' << toStrFromArr(f.favourite_color) 
     << ',' << toStrFromArr(f.shirt_size) << ',' << toStrFromArr(f.age) << '\n';
+    return os;
+}
+std::istream& operator>>(std::istream& is, DBfield& f) {
+    std::string line;
+    std::getline(is, line);
+    std::istringstream iss(line);
+    std::string token;
+    std::getline(iss, token, ',');
+    f.id = atoi(token.c_str());
+
+    std::getline(iss, token, ',');
+    f.first_name = token;
+
+    std::getline(iss, token, ',');
+    f.last_name = token;
+
+    std::getline(iss, token, ',');
+    f.email = token;
+
+    std::getline(iss, token, ',');
+    f.sex = token;
+
+    std::getline(iss, token, ',');
+    f.ip_adress = token;
+
+    std::getline(iss, token, ',');
+    f.married = token == "true";
+
+    std::getline(iss, token,',');
+    delete[] f.favourite_color;
+    f.favourite_color = new char[token.size() + 1];
+    strcpy(f.favourite_color, token.c_str());
+
+    std::getline(iss, token,',');
+    delete[] f.shirt_size;
+    f.shirt_size = new char[token.size() + 1];
+    strcpy(f.shirt_size, token.c_str());
+
+    std::getline(iss, token);
+    delete[] f.age;
+    f.age = new char[token.size() + 1];
+    strcpy(f.age, token.c_str());
+
     return is;
 }
 
@@ -129,28 +180,24 @@ public:
         string st;
         getline(file_write_from, st);
 
-        for (int i = 2; i < atoi(st.c_str()); i++) {
+        for (int i = 2; i < atoi(st.c_str())+2; i++) {
             string str;
             getline(file_write_from, str);
             vector<string> ans;
             get_separate_str(ans,str);
-            is_str_valid(ans, i);
+            is_str_valid(ans, i + 2);
         }
         file_write_from.close();
     }
     void write(){
         is_valid();
-        ofstream bin_file(path2, ios::binary | ios::out);
+        ofstream bin_file(path2, ios::binary);
         fstream file_write_from(path);
         string st;
         getline(file_write_from, st);
-        bin_file << st << '\n';
-        for (int i = 2; i < atoi(st.c_str()); i++) {
-            string str;
-            getline(file_write_from, str);
-            vector<string> ans;
-            get_separate_str(ans,str);
-            DBfield f(ans);
+        for (int i = 2; i < atoi(st.c_str())+2; i++) {
+            DBfield f;
+            file_write_from >> f;
             bin_file << f;
         }
         file_write_from.close(); //закрыли поток
@@ -162,16 +209,9 @@ public:
     };
     void writeBinary(){
         ofstream new_file("../"+getNewFileName(path));
-        fstream file_write_from(path2, ios::binary | ios::in);
-        string st;
-        getline(file_write_from, st);
-        new_file << st << '\n';
-        for (int i = 2; i < atoi(st.c_str()); i++) {
-            string str;
-            getline(file_write_from, str);
-            vector<string> ans;
-            get_separate_str(ans,str);
-            DBfield f(ans);
+        ifstream file_write_from(path2, ios::binary);
+        DBfield f;
+        while(file_write_from >> f) {
             new_file << f;
         }
         file_write_from.close();
