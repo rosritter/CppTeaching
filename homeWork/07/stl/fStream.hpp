@@ -36,21 +36,6 @@ struct DBfield{
     char* age = new char[4];
     friend ostream& operator<<(ostream& is,const DBfield& f);
     friend istream& operator>>(istream& is,const DBfield& f);
-    DBfield (vector<string>& data) {
-        id = stoi(data[0]);
-        first_name = data[1];
-        last_name = data[2];
-        email = data[3];
-        sex = data[4];
-        ip_adress = data[5];
-        married = (data[6] == "true");
-        favourite_color = new char[4];
-        strcpy(favourite_color, data[7].c_str());
-        shirt_size = new char[3];
-        strcpy(shirt_size, data[8].c_str());
-        age = new char[4];
-        strcpy(age, data[9].c_str());
-    }
     DBfield() { favourite_color = new char[4]; shirt_size = new char[3]; age = new char[4];}
     ~DBfield() {delete[] favourite_color; delete[] shirt_size; delete[] age;}
 };
