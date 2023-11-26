@@ -32,12 +32,17 @@ std::shared_ptr<int> function_should_return_shared_ptr_to_any_int_5_in_heap()
 
 struct DeleterString
 {
-    // самостоятельно реализовать недостающие детали класса
+    void operator()(std::string* str) const {
+        std::cout << str;
+    }
 };
 
 struct DeleterStringPtr
 {
-    // самостоятельно реализовать недостающие детали класса
+    void operator()(std::string* str) const {
+        std::cout << str;
+        delete str;
+    }
 };
 
 
@@ -46,14 +51,14 @@ int main()
 // исправить проблемы с утечной памяти
     int* ptr = new int{20};
     std::vector<int>* vector_ptr = new std::vector<int>();
-    for (int* i = new int{0}; *i < 20; ++(*i)) {
+    int* i = new int{0};
+    for (i; *i < 20; ++(*i)) {
         vector_ptr->push_back(*ptr * *i);
     }
 
-
 // убрать проблему чтение элемента, который был удалён в векторе
     int* ptr_to_vector_value = &(*vector_ptr)[0]; // берём указатель на 0 элемент вектора
-    if (ptr_to_vector_value != nullptr) {
+    if (!vector_ptr->empty()) {
         std::cout << "dereference [0] element of vector before clean = " << *ptr_to_vector_value << std::endl;
     }
     vector_ptr->clear();
@@ -62,7 +67,9 @@ int main()
     if (ptr_to_vector_value != nullptr) {
         std::cout << "dereference [0] element of vector after clean = " << *ptr_to_vector_value << std::endl;
     }
-
+    delete ptr;
+    delete vector_ptr;
+    delete i;
 
 // реализовать FileRaiiWrapper для управления FILE* по парадигме RAII
     try {
@@ -75,7 +82,7 @@ int main()
 
 
 // сделать выделение через умный указатель
-    std::unique_ptr<FileRaiiWrapper> fRaiiWrapper;
+    std::unique_ptr<FileRaiiWrapper> fRaiiWrapper = nullptr ;
     try {
         fRaiiWrapper = std::make_unique<FileRaiiWrapper>("not_existing_filename.txt");
     } catch (CannotOpenFileException) {
@@ -127,9 +134,8 @@ int main()
 
     // во время удаления строки вывести её в cout
     std::string* string_to_cout = new std::string{"cout this string when delete it"};
-
-    // во время удаления строки также вывести её в cout
+    std::unique_ptr<std::string, DeleterStringPtr> str1(string_to_cout);
     std::string string_to_cout_too{"also cout this string when delete it"};
-
+    std::unique_ptr<std::string, DeleterString> str2(&string_to_cout_too);
     return 0;
 }

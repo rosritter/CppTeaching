@@ -45,7 +45,7 @@ public:
     // функция для чтения строки длинной bytes_count из файла
     std::string ReadBytes(const size_t bytes_count) const {
         char* buf = new char[bytes_count + 1]{};
-        std::ignore = std::fgets(buf, bytes_count, f);
+        std::ignore = std::fgets(buf, bytes_count+1, f);
         return buf;
     }
 };
