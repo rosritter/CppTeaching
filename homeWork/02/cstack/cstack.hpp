@@ -1,6 +1,6 @@
 #pragma once 
 #include <cstdint>
-
+#include <iostream>
 /*
 Необходимо реализовать класс CStack - стэк элементов uint32_t с помощью односвязного списка (node)
 
@@ -65,6 +65,7 @@ struct Node
 {
     uint32_t info;
     Node* next = nullptr;
+    bool operator<(const Node& node);
 };
 
 
@@ -78,4 +79,9 @@ public:
     void push(uint32_t val); //inserts element at the top
     uint32_t top(); //accesses the top element
     bool empty(); //checks whether the underlying container is empty
+    void printStack();
+    CStack& operator*=(int multi);
+    CStack& operator=(const CStack& cstack);
+    int operator[](int ind);
+    // void swap(CStack & other);
 };
