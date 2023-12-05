@@ -45,5 +45,5 @@
         "streambuf": "cpp",
         "typeinfo": "cpp"
     },
-    "cmake.sourceDirectory": "C:/Users/Timur/Documents/GitHub/CppTeaching/homeWork/01"
+    "cmake.sourceDirectory": "/home/rrit/Documents/GitHub/CppTeaching/examples/fstreams"
 }
